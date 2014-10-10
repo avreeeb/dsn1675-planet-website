@@ -38,6 +38,11 @@ width: 100%;
 	overflow: hidden;
 }
 
+.footer {
+	background-color:#CCC;
+	overflow: hidden;
+}
+
 .nav li {
 	color:#0074D9;
 }
@@ -50,6 +55,10 @@ width: 100%;
 
 h1 {
 	text-align:center;
+}
+
+.medgrey {
+	background-color:#e2e2e2;
 }
 
 @media only screen and (min-width: 20em) {
