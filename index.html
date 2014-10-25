@@ -12,15 +12,21 @@
 <link href="css/grid.css" rel="stylesheet">
 <link href="css/main.css" rel="stylesheet">
 </head><body>
-<header class="masthead">
+
+<ul class="skip-links">
+	<li><a href="#main">Skip to main content</a></li>
+	<li><a href="#navigation">Skip navigation</a></li>
+</ul>	
+<header roll="banner" class="masthead">
 	<h1 class="title peta">Mars</h1>
-	<nav>
+	<nav role="navigation" id="navigation">
 		<ul class="nav exa">
 			<li> <a href="index.html">Planet</a></li>
 			<li> <a href="moons.html">Moons</a></li>
 			<li> <a href="exploration.html">Exploration</a></li>
 		</ul>
 	</nav>
+	<main role="main" id="main">
 </header>
 <div class="intro peta">Mars, the # planet in the Solar System</div>
 <div class="grid pad-t pad-b">
@@ -74,7 +80,9 @@
 	</div>
 </div>
 </div>
+<main/>
 <footer class="footer micro">
+<div role="contentinfo" class="unit micro unit-xs-1 unit-s-1"
 <p class="island-1-2 micro">© 2013 Mars Planitary Consortium</p>
 <nav class="nav-bottom micro">
 <ul class="nav">
