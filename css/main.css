@@ -176,12 +176,17 @@ input + label{
 
 button{
 	text-align:center;
-	height:20px;
+	height:30px;
 	width:100px;
 	margin: -20px -50px;
 	position:relative;
 	top:50%;
 	left:50%;
+	font-size:1em;
+	padding:1.4px;
+	background-color:#D7D7D7
+	border: 1px solid #ececec
+}
 	
 
 @media only screen and (min-width: 25em) {
