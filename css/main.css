@@ -9,16 +9,11 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 
-font: normal 100%/1.5 sans-serif;
+font: normal 100%/1.5;
 -moz-text-size-adjust: 100%;
 -ms-text-size-adjust: 100%;
 -webkit-text-size-adjust: 100%;
 text-size-adjust: 100%;
-}
-
-.datmoon{
-	background:#efefef;	
-	
 }
 
 @media only screen and (min-width: 60em) {
@@ -82,12 +77,13 @@ max-width: 100%;
 }
 
 .masthead {
-	background-color:#CCC;
+	background-color:#2B448C;
 	overflow: hidden;
+	color:#FFFFFF;
 }
 
 .footer {
-	background-color:#CCC;
+	background-color:#2B448C;
 	overflow: hidden;
 }
 
@@ -96,16 +92,29 @@ max-width: 100%;
 }
 
 .nav li {
-	color:#0074D9;
+	color:#2B448C;
 }
 
 .dismoon {
-	background-color:#efefef;
+	background-color:#2B448C;
 }
 
 .nav a {
 	text-decoration: none;
 	color:#0074D9;
+	background-color:#2B448C;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active,
+.nav .nav-current,
+.nav .nav-current:link,
+.nav .nav-current:visited {
+	background-color:#2B448C;
+	
+	color:#fff;
+	
 }
 
 .nav-bottom {
@@ -115,23 +124,16 @@ max-width: 100%;
 
 .title {
 	text-align:center;
+	font-family: 'Dosis', sans-serif;
 }
 
-.lightgrey {
-	background-color:#efefef;
-}
-
-.medgrey {
-	background-color:#e2e2e2;
-}
-
-.darkgrey {
-	background-color:#606060;
+.blue {
+	background-color:#5AB8F3;
 }
 
 .intro {
-	background-color:#efefef;
 	text-align: center;
+	font-family: 'Dosis', sans-serif;
 }
 
 .radio {
@@ -146,12 +148,22 @@ input + label {
 	display: inline-block;
 }
 
-h2{
-	text-align:center;
+.white{
+	color:white;
 }
 
-h1{
-	text-align:center;
+.dosis {
+	font-family: 'Dosis', sans-serif;
+}
+
+.photo{
+	background: #fff;
+    width: 300px;
+    margin: none;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0px 0px 10px #888;
 }
 
 .pee{
@@ -184,8 +196,8 @@ button{
 	left:50%;
 	font-size:1em;
 	padding:1.4px;
-	background-color:#D7D7D7
-	border: 1px solid #ececec
+	background-color:#D7D7D7;
+	border: 1px solid #ececec;
 }
 	
 
